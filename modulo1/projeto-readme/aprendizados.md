@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Nesta semana eu aprimiorei meus conhecimentos sobre o terminal, adquiri conhecimentos do que **NÃO** fazer caso eu me torne um detetive e também aprendi a como navegar usando diferentes comandos do terminal. Aprendi também a usar o GitHub para salvar meus projetos remotamente, dessa forma, garantido a segurança do meu trabalho durante os dias.
