@@ -11,9 +11,28 @@
  * 
  */
 
-    let querJogar = confirm("Quer jogar uma partida?")
-    if(querJogar === false){
-       console.log("Fim de jogo!")
-    } else{
-       
+    const querJogar = confirm("Quer jogar uma partida?")
+    const carta1User = comprarCarta();
+    const carta2User = comprarCarta();
+    const carta1Pc = comprarCarta();
+    const carta2Pc = comprarCarta();
+    const pontuacaoUser = carta1User.valor + carta2User.valor ;
+    const pontuacaoPc = carta1Pc.valor + carta2Pc.valor; 
+
+
+    if(querJogar){
+        
+
+       console.log( `Suas cartas são  ${carta1User.texto} e  ${carta2User.texto} - `, `Sua pontuação é ${pontuacaoUser}`);
+       let resultadoPc = pontuacaoPc
+       console.log(`As cartas do computador são ${carta1Pc.texto}, ${carta2Pc.texto} - `, `A pontuação do computador é ${pontuacaoPc}`)        
     }
+     if (pontuacaoUser > pontuacaoPc){
+        console.log("Você ganhou!")
+     } else if( pontuacaoPc > pontuacaoUser){
+        console.log("Você perdeu")
+     } else if(pontuacaoPc === pontuacaoUser){
+        console.log("Empate!")
+     } else {
+        console.log("Fim de jogo")
+     }
