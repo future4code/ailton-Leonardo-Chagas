@@ -38,6 +38,16 @@ let numerosPares = array.filter(buscarNumerosPares);
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
+  function buscarNumerosPares (pares) {
+    if (pares % 2 == 0) 
+    return pares;
+}
+let numerosPares = array.filter(buscarNumerosPares) ;
+    let calculando = numerosPares.map(function(pares){
+      return Math.pow(pares, 2)
+    })
+   
+   return calculando
  
 }
 
