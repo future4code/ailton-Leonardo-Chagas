@@ -23,8 +23,18 @@ function retornaArrayOrdenado(array) {
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-  
+ 
+  function buscarNumerosPares (pares) {
+    if (pares % 2 == 0) 
+    return pares;
 }
+let numerosPares = array.filter(buscarNumerosPares);
+    
+   
+   return numerosPares
+ 
+}
+
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
