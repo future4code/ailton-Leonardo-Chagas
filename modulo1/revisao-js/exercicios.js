@@ -58,13 +58,13 @@ function retornaMaiorNumero(array) {
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
- let maiorNumero =  Math.max.apply(null, (num1, num2))
- let maiorDivisivelPorMenor
+ /* let maiorNumero =  Math.max.apply(null, (num1, num2))
+ let maiorDivisivelPorMenor */
 }
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-  function buscarNumerosPares (pares) {
+ /* function buscarNumerosPares (pares) {
     if (pares % 2 == 0) 
     return pares;
 }
@@ -72,20 +72,41 @@ let numerosPares = array.filter(buscarNumerosPares);
 for(let i = 0; PrimeiroPar.length < n; i++)
     
    
-   return primeirosPares
+   return primeirosPares */
  
 }
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-if(ladoA === ladoB === ladoC){
-  let 
-}
+
 }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+  let maior1 = -Infinity
+  let menor1 = +Infinity
+  let maior2 = -Infinity
+  let menor2 = +Infinity
+
+  for (let numero of array){
+    if(numero > maior1){
+      maior1 = numero
+    } if (numero < menor1){
+      menor1 = numero
+    }
+  }
+
+  for (let numero of array){
+    if (numero > maior2 && numero !== maior1){
+      maior2 = numero
+    } if(numero < menor2 && numero !== menor1){
+      menor2 = numero
+    }
+  }
+  const resultado = [maior2, menor2]
+  return resultado
+
+
 }
 
 // EXERCÍCIO 11
