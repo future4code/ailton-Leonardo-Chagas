@@ -53,17 +53,27 @@ let numerosPares = array.filter(buscarNumerosPares) ;
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+  return Math.max.apply(null, array )
 }
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-
+ let maiorNumero =  Math.max.apply(null, (num1, num2))
+ let maiorDivisivelPorMenor
 }
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
+  function buscarNumerosPares (pares) {
+    if (pares % 2 == 0) 
+    return pares;
+}
+let numerosPares = array.filter(buscarNumerosPares);
+let primeirosPares = numerosPares.slice(0, n)
+    
    
+   return primeirosPares
+ 
 }
 
 // EXERCÍCIO 09
@@ -83,7 +93,9 @@ function retornaChamadaDeFilme(filme) {
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
+   return {...pessoa,
+   nome: "ANÔNIMO"
+   }
 }
 
 // EXERCÍCIO 13A
