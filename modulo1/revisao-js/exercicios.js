@@ -69,7 +69,7 @@ function retornaNPrimeirosPares(n) {
     return pares;
 }
 let numerosPares = array.filter(buscarNumerosPares);
-let primeirosPares = numerosPares.slice(0, n)
+for(let i = 0; PrimeiroPar.length < n; i++)
     
    
    return primeirosPares
@@ -78,7 +78,9 @@ let primeirosPares = numerosPares.slice(0, n)
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
+if(ladoA === ladoB === ladoC){
+  let 
+}
 }
 
 // EXERCÍCIO 10
@@ -88,7 +90,7 @@ function retornaSegundoMaiorESegundoMenor(array) {
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+   return (`Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores.join(", ")}.`)
 }
 
 // EXERCÍCIO 12
