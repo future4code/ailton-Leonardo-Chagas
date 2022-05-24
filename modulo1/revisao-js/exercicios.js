@@ -64,15 +64,12 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
- /* function buscarNumerosPares (pares) {
-    if (pares % 2 == 0) 
-    return pares;
+  function buscarNumerosPares (n) {
+    if (n % 2 === 0) 
+    return n;
 }
-let numerosPares = array.filter(buscarNumerosPares);
-for(let i = 0; PrimeiroPar.length < n; i++)
-    
-   
-   return primeirosPares */
+let numerosPares = n.filter(buscarNumerosPares); 
+return numerosPares
  
 }
 
