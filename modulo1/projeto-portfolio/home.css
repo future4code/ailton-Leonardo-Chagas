@@ -1,0 +1,8 @@
+.logo-principal{
+    display: block;
+    text-align: center;
+}
+.menu{
+    text-align: center;
+    border: solid 1px color rgb(122, 122, 122);
+}
