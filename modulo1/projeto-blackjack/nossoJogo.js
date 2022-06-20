@@ -33,6 +33,6 @@
         console.log("Você perdeu")
      } else if(pontuacaoPc === pontuacaoUser){
         console.log("Empate!")
-     } else if(querJogar === false) {
+     } else {
         console.log("Fim de jogo")
      }
