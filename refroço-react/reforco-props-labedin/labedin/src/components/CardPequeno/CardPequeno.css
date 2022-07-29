@@ -1,0 +1,40 @@
+
+/*
+smallcardContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+smallcardContainer > img {
+    width: 39px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+smallcardContainer h4 {
+    margin-bottom: 15px;
+}
+
+smallcardContainer > div {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+*/
+
+
+/*
+const CardH4 = styled.h4 `
+    margin-bottom: 15px;
+`
+
+const CardDiv = styled.div `
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+`
+*/
